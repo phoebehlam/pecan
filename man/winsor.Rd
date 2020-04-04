@@ -2,7 +2,7 @@
 % Please edit documentation in R/winsor.R
 \name{winsor}
 \alias{winsor}
-\title{winsorize function}
+\title{winsorize}
 \usage{
 winsor(x, sd)
 }
