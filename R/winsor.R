@@ -1,3 +1,7 @@
+.onAttach <- function(libname,pkgname) {
+  packageStartupMessage('p  e  c  a  n  \nsomeone once roasted pecans for me n since then\nsomething tells me that pecans would become essential\nan essential previously oblivious to me\njust like her\njust like these functions')
+}
+
 #' winsorize function
 #'
 #' winsorize to next lowest/highest value based on user input sd from the mean
@@ -23,11 +27,3 @@ winsor <- function (x, sd) {
   return(xwin2)
 
 }
-
-.onAttach <- function(libname,pkgname) {
-  packageStartupMessage('someone once roasted pecans for me n since then
-                        \nsomething tells me that pecans would become essential
-                        \nan essential previously oblivious to me
-                        \njust like her
-                        \njust like these functions')
-  }
