@@ -4,6 +4,11 @@
 }
 
 #set the kitchen as directory
+#'set the kitchen as directory
+#'
+#'@examples
+#'kitch()
+#'
 #' @export
 kitch <- function(){
   setwd("/Users/phoebelam/Google Drive/chialam/stats resources/the kitchen")
