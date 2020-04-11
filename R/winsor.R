@@ -25,3 +25,5 @@ winsor <- function (x, sd) {
   return(xwin2)
 
 }
+
+
