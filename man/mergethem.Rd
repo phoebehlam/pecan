@@ -2,13 +2,13 @@
 % Please edit documentation in R/mergethem.R
 \name{mergethem}
 \alias{mergethem}
-\title{merge multiple datasets together}
+\title{mergethem}
 \usage{
 mergethem(...)
 }
 \arguments{
-\item{...}{list of dataframes. the matching column must be first variable}
+\item{...}{dataframes separated by comma}
 }
 \description{
-merge multiple datasets together
+merge multiple dfs together, identifier must be first column, doesn't need to be same name
 }
