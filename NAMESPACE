@@ -2,4 +2,5 @@
 
 export(gimmepac)
 export(kitch)
+export(mergethem)
 export(winsor)
