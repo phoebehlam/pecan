@@ -3,4 +3,5 @@
 export(gimmepac)
 export(kitch)
 export(mergethem)
+export(pomp)
 export(winsor)
