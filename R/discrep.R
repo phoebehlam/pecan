@@ -1,11 +1,11 @@
 #' discrep
 #'
-#' [micah project] compute discrepancies between two coders
-#' @path folder in which the two coders' method extraction sheets in .csv format are
-#' @initial1 initials for first coder in quotes
-#' @initial2 initials for second coder in quotes
-#' @aidfrom article id from in quotes
-#' @aidto article id to in quotes
+#' -micah project exclusive- compute discrepancies between two coders
+#' @param path folder in which the two coders' method extraction sheets in .csv format are
+#' @param initial1 initials for first coder in quotes
+#' @param initial2 initials for second coder in quotes
+#' @param aidfrom article id from in quotes
+#' @param aidto article id to in quotes
 #'
 #' @examples
 #' discrep(path = "/Users/phoebelam/Desktop/micah", initial1 = "kk", initial2 = "arp", aidfrom = "b21", aidto = "b26")
