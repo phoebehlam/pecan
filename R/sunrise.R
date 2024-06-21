@@ -11,5 +11,5 @@
 #'
 #' @export
 kitch <- function(){
-  setwd("/Volumes/GoogleDrive/My Drive/the kitchen")
+  setwd("/Users/phoebelam/Documents/the kitchen")
 }
