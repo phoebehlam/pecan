@@ -5,11 +5,13 @@
 #' @param var vector of variables
 #' @export
 histthem <- function (dat, var) {
-  
+
   hist <- function (dat, x) {
-    ggplot2::ggplot(dat=dat, ggplot2::aes_string(x=x)) + ggplot2::geom_histogram()
+    ggplot2::ggplot(dat=dat, ggplot2::aes_string(x=x)) +
+      ggplot2::geom_histogram() +
+      ggplot2::theme_minimal()
   }
-  
+
   plots=purrr::map(var, ~hist(dat, .x))
   do.call(gridExtra::grid.arrange, plots)
 

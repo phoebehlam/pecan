@@ -12,10 +12,6 @@
 #'
 #' @return a correlation matrix
 #' @export
-#'
-#' @examples
-#' `correlation_matrix(iris)`
-#' `correlation_matrix(mtcars)`
 correlation_matrix <- function(df,
                                type = "pearson",
                                digits = 3,
