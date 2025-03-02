@@ -1,10 +1,10 @@
 #' table 1
 #' tired of making table 1's
 #'
-#' @param df dataframe; containing numeric and/or logical columns to calculate correlations for
+#' @param data dataframe; containing numeric and/or logical columns to calculate correlations for
 #' @return a correlation matrix
 #' @export
-table1 <- function(df) {
+table1 <- function(data) {
   
   # separate numeric vs categorical
   numeric_vars <- names(data)[sapply(data, is.numeric)]

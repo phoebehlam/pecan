@@ -5,10 +5,10 @@
 \title{table 1
 tired of making table 1's}
 \usage{
-table1(df)
+table1(data)
 }
 \arguments{
-\item{df}{dataframe; containing numeric and/or logical columns to calculate correlations for}
+\item{data}{dataframe; containing numeric and/or logical columns to calculate correlations for}
 }
 \value{
 a correlation matrix
